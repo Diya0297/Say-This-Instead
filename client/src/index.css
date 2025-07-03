@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+
+.button{
+    @apply text-lg text-white font-bold w-fit h-fit ml-4 m-3 px-5 py-1 border-2 border-blue-500 rounded-xl bg-blue-500 hover:bg-transparent whitespace-nowrap
+}
+
+.glassmorphism{
+    @apply bg-white/30 backdrop-blur-none
+}
